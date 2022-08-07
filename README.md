@@ -6,8 +6,11 @@ This data set consists of Placement data of students in a XYZ campus. It include
 This dataset is available in kaggle at: https://www.kaggle.com/datasets/benroshan/factors-affecting-campus-placement
 
 This dataset mainly aims to answer the following questions-
+
 Which factor influenced a candidate in getting placed?
+
 Does percentage matters for one to get placed?
+
 Which degree specialization is much demanded by corporate?
 
 
@@ -23,5 +26,7 @@ Combined results of Chi-square, Anova and mutual information test if used to det
 The data analysis mainly aims to estimate Salary and Placement status using other features to answer the questions described above. To do that we use two types of model, one to predict Salary which is an continous variable so we have used various Regression models and to determine Placement status, which is an classification problem we have used various classification model.
 
 All the model are compared with best results being-
+
 Salary prediction- 28.4% accuracy (Linear regression)
+
 Placement status- 82.75% accuracy (Support Vector Machine)
